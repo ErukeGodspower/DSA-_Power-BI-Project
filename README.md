@@ -59,6 +59,9 @@ etc.?
 
 Case Questions
 
-    5. Mr Gamma thought to himself that since you were already working on the employee 
-data, you could help out with allocating the annual bonus pay to employees based on the 
+ iv. Mr Gamma thought to himself that since you were already working on the employee 
+data, you could help out with allocating the annual bonus pay to employees based on the
+
+### DATA Description;
+The Palmoria Group manufacturing company gave out a data set of 3 different tables which are the bonus mapping, bonus rules and the Palmoria Group_emp-data. The bonus mapping and bonus rules consists of 12 rows and 6 columns while the Palmoria Group_emp_data consists of 6 columns and 1015 rows.. The Palmoria Group_emp_data tables contains a range of the employees details related to the Palmoria company staffs, such as Employees name, Gender, department, salary, location and rating While the bonus rules and mappings which are the same consist of 12 rows and 6 columns .The columns consists of the department and the ratings ie very poor, poor, very good, good and average.
 
