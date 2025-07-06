@@ -65,3 +65,41 @@ data, you could help out with allocating the annual bonus pay to employees based
 ### DATA Description;
 The Palmoria Group manufacturing company gave out a data set of 3 different tables which are the bonus mapping, bonus rules and the Palmoria Group_emp-data. The bonus mapping and bonus rules consists of 12 rows and 6 columns while the Palmoria Group_emp_data consists of 6 columns and 1015 rows.. The Palmoria Group_emp_data tables contains a range of the employees details related to the Palmoria company staffs, such as Employees name, Gender, department, salary, location and rating While the bonus rules and mappings which are the same consist of 12 rows and 6 columns .The columns consists of the department and the ratings ie very poor, poor, very good, good and average.
 
+### Skills/ Concepts Demonstrated
+I looked into the data set and the data cleaning process was completed using Power Query, a powerful data transformation tool and I analyzed and generate an insights the management team need to address
+
+- DAX
+
+- Qucik Measures
+
+- Page Navigation
+
+- Modelling
+
+- Filters
+
+- Calculated columns
+
+Data Cleaning Process
+Using M language and a host of tools available in Power Query Editor, I was able to perform the following transformation to the data set
+Text Cleaning
+One of the issues identified during the data cleaning process was with the “Gender” column. The column contains male, female and blank so I replaced the blank with Unspecifed. The power query replaced values was used. 
+
+Department column
+There are few rows that has a “NULL” text in the column so I removed it by unchecking it from the list of other department rows. Which gives our rows to reduce to 987 rows
+
+Salary Column
+There are few rows that has a “null” text in the column so I removed it by unchecking it from the list of other salary rows. Which gives our rows to reduce to 946 rows 
+
+Merge table
+I created a merge table to be able to get the employee who’s worthy of a bonus base on their performance rating so I was able to merge the Palmoria Group_emp_data and the bonus rules table together. I merged them by joining their unique identifier which is the “Department” column so that gives me the bonus discount column
+
+Modelling
+Automatically derieved relaionships are adjusted to remove and replace unwanted relationships with the required.
+Auto model Adjusted model. The model is a star schema There are 2-dimensional tables and 1 fact table. The dimension tables are all joined to the fact table (auto-detect) with a one-to-many relationships but after i merged the DSF_emp_data to the bonus rules table i adjusted the model which gives a many-to-many relationships.
+
+
+
+
+
+
