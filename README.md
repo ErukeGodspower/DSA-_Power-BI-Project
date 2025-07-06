@@ -98,6 +98,24 @@ Modelling
 Automatically derieved relaionships are adjusted to remove and replace unwanted relationships with the required.
 Auto model Adjusted model. The model is a star schema There are 2-dimensional tables and 1 fact table. The dimension tables are all joined to the fact table (auto-detect) with a one-to-many relationships but after i merged the DSF_emp_data to the bonus rules table i adjusted the model which gives a many-to-many relationships.
 
+### CONCLUSIONS
+#### Gender Distribution 
+• The gender disparity is most prominent in the Kaduna region (M-F ratio: 182–165), followed by Lagos (M-F ratio: 124–118) and then Abuja which has a negligible gender disparity (M-F ratio: 159–158). • Of the 12 departments, 7 have a higher Male headcount, with the Legal department leading the pack (M-F ratio: 49–34). • Overall, the gender disparity across the company is considered  ‘MARGINAL’.
+
+#### Salary Structure
+• A gender pay gap exists across all regions of the company; at an average M-F salary ratio of $74.8k — $72.1k, male employees were noted to earn slightly more in all regions. • Male employees earned more in total terms across 7 (out of 12) departments. On an average salary basis, Male employees earned more in 9 (out of 12) departments across the company. • Given the marginal pay gap, there isn’t sufficient evidence based on available data to conclude if the disparity is reflective of patriarchy. • Performance Ratings & Bonuses • Female employees overall performed better in the period under review (reflected in higher overall bonuses which accrued to females).
+
+### RECOMMENDATIONS
+• Given the minimality of the gender disparity & pay gap, PALMORIA should consider reviewing its employment and remuneration policy to close the inherent gender gaps and neutralize current negative opinions. • PALMORIA should consider reviewing the salary structure across the company to meet the minimum wage requirement
+
+
+
+
+
+
+
+
+
 
 
 
