@@ -65,6 +65,19 @@ data, you could help out with allocating the annual bonus pay to employees based
 ### DATA Description;
 The Palmoria Group manufacturing company gave out a data set of 3 different tables which are the bonus mapping, bonus rules and the Palmoria Group_emp-data. The bonus mapping and bonus rules consists of 12 rows and 6 columns while the Palmoria Group_emp_data consists of 6 columns and 1015 rows.. The Palmoria Group_emp_data tables contains a range of the employees details related to the Palmoria company staffs, such as Employees name, Gender, department, salary, location and rating While the bonus rules and mappings which are the same consist of 12 rows and 6 columns .The columns consists of the department and the ratings ie very poor, poor, very good, good and average.
 
+#### Original Dataset
+
+
+#### Data
+
+
+
+
+
+
+
+
+
 ### Skills/ Concepts Demonstrated
 I looked into the data set and the data cleaning process was completed using Power Query, a powerful data transformation tool and I analyzed and generate an insights the management team need to address
 
@@ -107,6 +120,15 @@ Auto model Adjusted model. The model is a star schema There are 2-dimensional ta
 
 ### RECOMMENDATIONS
 • Given the minimality of the gender disparity & pay gap, PALMORIA should consider reviewing its employment and remuneration policy to close the inherent gender gaps and neutralize current negative opinions. • PALMORIA should consider reviewing the salary structure across the company to meet the minimum wage requirement
+
+#### Learning Outcome
+
+•	Gained experience with real-world power BI data analysis
+
+•	Improved storytelling with dashboards
+
+•	Learned to uncover actionable insights using data
+
 
 
 
