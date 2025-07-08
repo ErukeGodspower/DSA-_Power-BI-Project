@@ -131,7 +131,7 @@ Auto model Adjusted model. The model is a star schema There are 2-dimensional ta
 #### Salary Structure
 • A gender pay gap exists across all regions of the company; at an average M-F salary ratio of $74.8k — $72.1k, male employees were noted to earn slightly more in all regions. • Male employees earned more in total terms across 7 (out of 12) departments. On an average salary basis, Male employees earned more in 9 (out of 12) departments across the company. • Given the marginal pay gap, there isn’t sufficient evidence based on available data to conclude if the disparity is reflective of patriarchy. • Performance Ratings & Bonuses • Female employees overall performed better in the period under review (reflected in higher overall bonuses which accrued to females).
 
-### Recommmendations
+### Recommendations
 • Given the minimality of the gender disparity & pay gap, PALMORIA should consider reviewing its employment and remuneration policy to close the inherent gender gaps and neutralize current negative opinions. • PALMORIA should consider reviewing the salary structure across the company to meet the minimum wage requirement
 
 #### Learning Outcome
