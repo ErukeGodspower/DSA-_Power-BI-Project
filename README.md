@@ -63,16 +63,9 @@ Case Questions
 data, you could help out with allocating the annual bonus pay to employees based on the
 
 ### DATA Description;
-The Palmoria Group manufacturing company gave out a data set of 3 different tables which are the bonus mapping, bonus rules and the Palmoria Group_emp-data. The bonus mapping and bonus rules consists of 12 rows and 6 columns while the Palmoria Group_emp_data consists of 6 columns and 1015 rows.. The Palmoria Group_emp_data tables contains a range of the employees details related to the Palmoria company staffs, such as Employees name, Gender, department, salary, location and rating While the bonus rules and mappings which are the same consist of 12 rows and 6 columns .The columns consists of the department and the ratings ie very poor, poor, very good, good and average.
+The Palmoria Group manufacturing company gave out a data set of 3 different tables which are the bonus mapping, bonus rules and the Palmoria Group_emp-data. The bonus mapping and bonus rules consists of 12 rows and 6 columns while the Palmoria Group_emp_data consists of 6 columns and 1015 rows.. The Palmoria Group_emp_data tables contains a range of the employees details related to the Palmoria company staffs, such as Employees name, Gender, department, salary, location and rating While the bonus rules and mappings which are the same consist of 12 rows and 6 columns .The columns consists of the department and the ratings ie very poor, poor, very good, good and average
 
-#### Original Dataset
-
-
-#### Data
-
-
-
-
+#### Palmoria HR Dashboard ![image](https://github.com/user-attachments/assets/d2b4d58b-d3de-4a75-bf60-0ec79edcf37b)
 
 
 
@@ -96,16 +89,28 @@ I looked into the data set and the data cleaning process was completed using Pow
 Data Cleaning Process
 Using M language and a host of tools available in Power Query Editor, I was able to perform the following transformation to the data set
 Text Cleaning
-One of the issues identified during the data cleaning process was with the “Gender” column. The column contains male, female and blank so I replaced the blank with Unspecifed. The power query replaced values was used. 
+One of the issues identified during the data cleaning process was with the “Gender” column. The column contains male, female and blank so I replaced the blank with Unspecifed. The power query replaced values was used.
+#### Before Column ![image](https://github.com/user-attachments/assets/b1b090d6-5da8-4760-b40f-29c1481ed755)
+#### After COlumn![image](https://github.com/user-attachments/assets/b2ff42a0-5f4c-4c2a-b9d3-77bafc397897)
+
+
+ 
 
 Department column
 There are few rows that has a “NULL” text in the column so I removed it by unchecking it from the list of other department rows. Which gives our rows to reduce to 987 rows
+#### Before column ![image](https://github.com/user-attachments/assets/6ff5ac48-f4cc-473c-b8c4-7c13ad3cc83c)
+#### After column ![image](https://github.com/user-attachments/assets/48b3b8ea-59d8-46c4-b79a-948c3b73605b)
 
 Salary Column
 There are few rows that has a “null” text in the column so I removed it by unchecking it from the list of other salary rows. Which gives our rows to reduce to 946 rows 
+#### Before Column ![image](https://github.com/user-attachments/assets/c64ad470-def2-4c8e-8f39-c97b199e3e87)
+
+#### After Column ![image](https://github.com/user-attachments/assets/b71a2e12-647c-4a8c-933e-7c4f5c711110)
+
 
 Merge table
-I created a merge table to be able to get the employee who’s worthy of a bonus base on their performance rating so I was able to merge the Palmoria Group_emp_data and the bonus rules table together. I merged them by joining their unique identifier which is the “Department” column so that gives me the bonus discount column
+I created a merge table to be able to get the employee who’s worthy of a bonus base on their performance rating so I was able to merge the Palmoria Group_emp_data and the bonus rules table together. I merged them by joining their unique identifier which is the “Department” column so that gives me the bonus discount column ![image](https://github.com/user-attachments/assets/3cde99df-f596-48a3-9c26-3e6a004a019c)
+ 
 
 Modelling
 Automatically derieved relaionships are adjusted to remove and replace unwanted relationships with the required.
