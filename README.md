@@ -88,24 +88,32 @@ I looked into the data set and the data cleaning process was completed using Pow
 
 Data Cleaning Process
 Using M language and a host of tools available in Power Query Editor, I was able to perform the following transformation to the data set
+
 Text Cleaning
 One of the issues identified during the data cleaning process was with the “Gender” column. The column contains male, female and blank so I replaced the blank with Unspecifed. The power query replaced values was used.
-#### Before Column ![image](https://github.com/user-attachments/assets/b1b090d6-5da8-4760-b40f-29c1481ed755)
-#### After COlumn![image](https://github.com/user-attachments/assets/b2ff42a0-5f4c-4c2a-b9d3-77bafc397897)
+#### Before Column 
+![image](https://github.com/user-attachments/assets/b1b090d6-5da8-4760-b40f-29c1481ed755)
+
+#### After COlumn
+![image](https://github.com/user-attachments/assets/b2ff42a0-5f4c-4c2a-b9d3-77bafc397897)
 
 
- 
 
 Department column
 There are few rows that has a “NULL” text in the column so I removed it by unchecking it from the list of other department rows. Which gives our rows to reduce to 987 rows
-#### Before column ![image](https://github.com/user-attachments/assets/6ff5ac48-f4cc-473c-b8c4-7c13ad3cc83c)
-#### After column ![image](https://github.com/user-attachments/assets/48b3b8ea-59d8-46c4-b79a-948c3b73605b)
+#### Before column 
+![image](https://github.com/user-attachments/assets/6ff5ac48-f4cc-473c-b8c4-7c13ad3cc83c)
+
+#### After column 
+![image](https://github.com/user-attachments/assets/48b3b8ea-59d8-46c4-b79a-948c3b73605b)
 
 Salary Column
 There are few rows that has a “null” text in the column so I removed it by unchecking it from the list of other salary rows. Which gives our rows to reduce to 946 rows 
-#### Before Column ![image](https://github.com/user-attachments/assets/c64ad470-def2-4c8e-8f39-c97b199e3e87)
+#### Before Column 
+![image](https://github.com/user-attachments/assets/c64ad470-def2-4c8e-8f39-c97b199e3e87)
 
-#### After Column ![image](https://github.com/user-attachments/assets/b71a2e12-647c-4a8c-933e-7c4f5c711110)
+#### After Column 
+![image](https://github.com/user-attachments/assets/b71a2e12-647c-4a8c-933e-7c4f5c711110)
 
 
 Merge table
@@ -116,14 +124,14 @@ Modelling
 Automatically derieved relaionships are adjusted to remove and replace unwanted relationships with the required.
 Auto model Adjusted model. The model is a star schema There are 2-dimensional tables and 1 fact table. The dimension tables are all joined to the fact table (auto-detect) with a one-to-many relationships but after i merged the DSF_emp_data to the bonus rules table i adjusted the model which gives a many-to-many relationships.
 
-### CONCLUSIONS
+### Conclusions
 #### Gender Distribution 
 • The gender disparity is most prominent in the Kaduna region (M-F ratio: 182–165), followed by Lagos (M-F ratio: 124–118) and then Abuja which has a negligible gender disparity (M-F ratio: 159–158). • Of the 12 departments, 7 have a higher Male headcount, with the Legal department leading the pack (M-F ratio: 49–34). • Overall, the gender disparity across the company is considered  ‘MARGINAL’.
 
 #### Salary Structure
 • A gender pay gap exists across all regions of the company; at an average M-F salary ratio of $74.8k — $72.1k, male employees were noted to earn slightly more in all regions. • Male employees earned more in total terms across 7 (out of 12) departments. On an average salary basis, Male employees earned more in 9 (out of 12) departments across the company. • Given the marginal pay gap, there isn’t sufficient evidence based on available data to conclude if the disparity is reflective of patriarchy. • Performance Ratings & Bonuses • Female employees overall performed better in the period under review (reflected in higher overall bonuses which accrued to females).
 
-### RECOMMENDATIONS
+### Recommmendations
 • Given the minimality of the gender disparity & pay gap, PALMORIA should consider reviewing its employment and remuneration policy to close the inherent gender gaps and neutralize current negative opinions. • PALMORIA should consider reviewing the salary structure across the company to meet the minimum wage requirement
 
 #### Learning Outcome
